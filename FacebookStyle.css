@@ -1,0 +1,263 @@
+body{
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px;
+    font-family: 'Lexend-Exa'; 
+	background: linear-gradient(20deg, #0E6BA8, #A6E1FA);
+}
+
+.header{
+    width: 100%;
+    min-width: 980px;
+    background: #0A2472;	
+	font-family: 'Lexend-Exa';
+}
+
+.head{
+    width: 980px;
+    margin: 0px auto;
+    padding: 0;
+    height: 90px;
+	font-family: 'Lexend-Exa';
+}
+
+.head li{
+    list-style-type: none;
+    float: left;
+    text-align: left;
+    color: #A6E1FA;
+	font-family: 'Lexend-Exa';
+}
+
+.head #site{
+    margin-top: 20px;
+	font-family: 'Lexend-Exa';
+}
+
+.head #site a{
+    color: #A6E1FA;
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: 'Lexend-Exa';
+}
+
+.head form{
+    margin-top: 10px;
+    float: right;
+	font-family: 'Lexend-Exa';
+}
+
+.head form li{
+    font-size: 13px;
+    margin-left: 15px;
+	font-family: 'Lexend-Exa';
+}
+
+.head form li a{
+    color: #A6E1FA;
+    text-decoration: none;
+}
+
+.head form input[type="text"]{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 150px;
+    border: 1px solid #00072D;
+    height: 25px;
+    padding-left: 3px;
+	font-family: 'Lexend-Exa';
+    
+}
+
+.head form input[type="password"]{
+    margin-top: 3px;
+    margin-bottom: 3px;
+    width: 150px;
+    border: 1px solid #00072D;
+    height: 25px;
+    padding-left: 3px;
+	font-family: 'Lexend-Exa';
+}
+
+.head form input[type="submit"]{
+    height: 25px;
+    margin-top: 20px;
+    background-color: #A6E1FA;
+    color: #001C55;
+    border: 1px solid #00072D;
+    font-family: 'Lexend-Exa';
+}
+
+.holder{
+    margin: 0 auto;
+    padding: 0px;
+    text-align: center;
+    width: 980px;
+	font-family: 'Lexend-Exa';
+}
+
+
+.holder div{
+    float: left;
+    font-family: 'Lexend-Exa';
+}
+
+
+.webtext{
+    margin-top: 30px;
+    width: 590px;
+    text-align: left;
+}
+
+.webtext img{
+	max-width: 100%;
+    height: auto;
+}
+.webtext a{
+    font-size: 8px;
+    text-decoration: none;
+    color: #00072D;	
+}
+
+.webtext p{
+    font-size: 25px;
+    font-family: 'Lexend-Exa';
+    font-weight: bold;
+    margin: 0px;
+    color: rgb(11, 50, 82);	
+	font-family: 'Lexend-Exa';
+}
+
+
+.create_account{
+    margin-top: 10px;
+    width: 390px;
+    text-align: left;
+}
+
+.create_account h1{
+    margin: 0px;
+    font-size: 37px;
+    color: #00072D;
+    font-weight: bolder;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account p{
+    font-size: 15px;
+    color: #00072D;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li{
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.create_account li #firstname{
+    width: 45%;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li #surname{
+    width: 45%;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li input[type="text"]{
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #00072D;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li input[type="password"]{
+    width: 95%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 1px solid #00072D;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li select{
+    padding: 4px;
+    float: left;
+    border-radius: 3px;
+    border: 1px solid #00072D;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li a{
+    margin-left: 10px;
+    width: 150px;
+    color: #00072D;
+    text-decoration: none;
+    font-size: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 15px;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li a:hover{
+    text-decoration: underline;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account #terms p{
+    color: #00072D;
+    font-size: 13px;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account #terms a{
+    display: inline;
+    margin: 0px;
+    font-size: 15px;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account li input[type="submit"]{
+    width: 205px;
+    height: 45px;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Lexend-Exa';
+    font-weight: bold !important;
+    background: linear-gradient(#001C55, #00072D);
+    background-color: #00072D;
+    box-shadow: inset 0 1px 1px #00072D;
+    border-color: #001C55 #001C55  #00072D;
+    border: 1px solid;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	font-family: 'Lexend-Exa';
+}
+
+.create_account #page{
+    color: #00072D;
+    font-size: 13px;
+    font-weight: bold;
+	font-family: 'Lexend-Exa';
+}
+
+.create_account #page a{
+    display: inline;
+    margin: 0px;
+    font-size: 15px;
+    color: #00072D;
+	font-family: 'Lexend-Exa';
+}
